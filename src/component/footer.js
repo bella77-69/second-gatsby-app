@@ -1,11 +1,14 @@
 import React from "react"
-
+import * as footerStyles from "./footer.module.scss"
 const Footer = () => {
   return (
-    <footer>
-      <p>
-        Site developed by Ibaslogic &copy; {new Date().getFullYear().toString()}{" "}
-      </p>
+    <footer className={footerStyles.siteFooter}>
+      <div className={footerStyles.container}>
+        <p>
+          Site developed by Bellalogic &copy;{" "}
+          {new Date().getFullYear().toString()}{" "}
+        </p>
+      </div>
     </footer>
   )
 }

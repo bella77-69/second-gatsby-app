@@ -1,3 +1,4 @@
+
 .header {
     position: relative;
     height: 326px;
@@ -6,8 +7,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../images/header-image.jpg");
-}
-  
+  }
+  .overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+  }
+  .active-menu-item {
+    text-decoration: underline;
+  }
   .hero-content {
     position: absolute;
     top: 35%;
