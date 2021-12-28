@@ -3,6 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../component/layout"
 import * as blogStyles from "./blog.module.scss"
+import Metadata from "../component/metadata"
 
 const Blog = () => {
   const data = useStaticQuery(
@@ -36,6 +37,7 @@ const Blog = () => {
   )
   return (
     <Layout>
+       <Metadata title="Blog" description="This is my blog page" />
     <ul className={blogStyles.posts}>
       {data.allMarkdownRemark.edges.map(edge => {
         return (

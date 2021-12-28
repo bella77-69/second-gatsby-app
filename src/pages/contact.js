@@ -1,11 +1,15 @@
 import React from "react"
+import Layout from "../component/layout"
+import Metadata from "../component/metadata"
+
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>You can find Chantelle via git hub Bella77-69</p>
-    </div>
+    <Layout>
+    <Metadata title="Contact" description="This is my contact page" />
+    <h1>Contact Page</h1>
+    <h2>You can find Chantelle via git hub Bella77-69</h2>
+  </Layout>
   )
 }
 
