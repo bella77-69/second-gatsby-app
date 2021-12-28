@@ -11,7 +11,7 @@ After that, I learned how to set up a basic SEO for my Gatsby site. And lastly, 
 </h3>
 
 <p align="center">
-Thank you to Ibaslogic for the tutorial!!  
+Thank you to Ibaslogic for the tutorial!!  https://github.com/Ibaslogic
 </p>
 
 
