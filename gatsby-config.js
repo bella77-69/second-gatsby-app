@@ -5,19 +5,17 @@ module.exports = {
     author: "Bella77-69",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
-    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
         path: `${__dirname}/src/`,
       },
-      
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -32,7 +30,5 @@ module.exports = {
         ],
       },
     },
-
-
   ],
 }

@@ -10,6 +10,10 @@ I was then introduced to the different ways of styling a Gatsby site. In additio
 After that, I learned how to set up a basic SEO for my Gatsby site. And lastly, I learned how to deploy my site to Netlify.
 </h3>
 
+<p align="center">
+Thank you to Ibaslogic for the tutorial!!  
+</p>
+
 
 
 
