@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Chantelle Mckenzie",
+    title: "Learning Gatsby",
     description: "I am learning, GraphQL and Gatsby",
     author: "Bella77-69",
   },

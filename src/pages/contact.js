@@ -8,7 +8,7 @@ const Contact = () => {
     <Layout>
     <Metadata title="Contact" description="This is my contact page" />
     <h1>Contact Page</h1>
-    <h2>You can find Chantelle via git hub Bella77-69</h2>
+    <h2>You can find me via git hub Bella77-69</h2>
   </Layout>
   )
 }
