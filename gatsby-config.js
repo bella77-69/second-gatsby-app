@@ -13,8 +13,10 @@ module.exports = {
         name: "src",
         path: `${__dirname}/src/`,
       },
+      
     },
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
